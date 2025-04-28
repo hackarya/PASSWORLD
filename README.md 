@@ -1,0 +1,24 @@
+# PASSWORLD 🔐
+
+PASSWORLD is a web-based, hacking-style password analyzer tool built with Python Flask.  
+It analyzes password strength, breach status, cracking time, and entropy in real time — with a live animated Matrix-style background!
+
+## ✨ Features
+- Password Strength Evaluation (Weak / Moderate / Strong)
+- Password Breach Check (using HaveIBeenPwned API)
+- Crack Time Estimation
+- Entropy Calculation
+- Live Hacking-Style Background Animation
+
+## 🛠 Technologies Used
+- Python 3
+- Flask
+- HTML5 / CSS3
+- JavaScript (Canvas Animation)
+
+## 🚀 How to Run Locally
+```bash
+git clone https://github.com/yourusername/PASSWORLD.git
+cd PASSWORLD
+pip install -r requirements.txt
+python app.py
